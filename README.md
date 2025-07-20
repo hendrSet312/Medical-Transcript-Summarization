@@ -33,7 +33,7 @@ To develops this model, I use this Medical Transcriptions dataset from Kaggle : 
 
 ## 3. Insights and found
 ### 3.1 Dataset Overview 
-The full dataset consists of 4,999 rows with transcription and description of 40 categories. In this project, I only use 3 transcription categories including , surgery, orthopedic , and consultation transcription with 1,974 rows. 
+The full dataset consists of 4,999 rows with transcription and description of 40 categories. In this project, I only use 3 transcription categories including , surgery, orthopedic , and consultation transcription with 1,974 rows.
 ### 3.2 Insights & Findings : 
 - Transcription Categories
 ![alt text](img/image_1.png)
@@ -46,6 +46,7 @@ In this dataset, most of the transcriptions data are Surgery, with the total of 
         - median words after cleaning :  41.0
         - max words after cleaning :  44.0
 ### 3.3 Model Training : 
+- The model trained with input column : "transcription" and output column : "description" (summary result)
 - The model trained with 150 Steps with training data (1246 rows) and validation dataset (156 rows)
 - Then, the model tested with 156 rows of test data 
 ### 3.4 Model Evaluation : 
