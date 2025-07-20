@@ -1,7 +1,7 @@
 # Medical-Transcript-Summarization
 
 ## 1. Project Overview
-This project develops a robust and efficient medical transcription summarization system capable of accurately condensing detailed medical transcripts (consultations, surgeries script, orthopedic reports) into concise, medically-relevant summaries using the IBM Granite 3.3 language model fine-tuned with the Unsloth framework.
+This project develops a robust and efficient medical transcription summarization system capable of accurately condensing detailed medical transcripts (consultations, surgeries script, orthopedic reports) into concise, medically-relevant summaries using the IBM Granite 3.2 language model fine-tuned with the Unsloth framework.
 ### 1.1 Purpose : 
 - Time-Saving: Doctors and administrative staff spend hours reviewing lengthy transcripts. Summarization streamlines this process.
 - Medical Relevance: Ensuring summaries retain clinically significant details across specialized domains like orthopedics and surgical procedures.
